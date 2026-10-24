@@ -1,4 +1,4 @@
-# Sistema ENADE de Questões
+# Sistema de Resolução de Questões do ENADE
 
 Aplicação web para simular provas objetivas do ENADE, permitindo que o usuário escolha uma prova, responda as questões, valide as respostas e veja o resultado com acertos, erros e gabarito.
 
@@ -38,7 +38,7 @@ Sistema ENADE de Questões/
 1. Acesse a pasta do projeto:
 
 ```bash
-cd "c:/Users/rodolfo/Downloads/Sistema ENADE de Questões"
+cd enade-provas
 ```
 
 2. Entre na pasta da aplicação:
@@ -66,7 +66,6 @@ O projeto já inclui um dataset com provas e gabaritos pré-gerados em `app/data
 Se você quiser regenerar esse arquivo a partir dos PDFs da pasta `Provas`, execute:
 
 ```bash
-cd "c:/Users/rodolfo/Downloads/Sistema ENADE de Questões"
 python scripts/generate_enade_data.py
 ```
 
@@ -96,7 +95,7 @@ http://localhost:3000
 Para gerar a versão pronta para produção:
 
 ```bash
-cd "c:/Users/rodolfo/Downloads/Sistema ENADE de Questões/app"
+cd app
 npm run build
 ```
 
